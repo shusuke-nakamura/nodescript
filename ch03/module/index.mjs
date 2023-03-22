@@ -1,4 +1,4 @@
-import { num, add, sub } from "./calc.mjs";
+import defaultCalc, { num, add, sub } from "./calc.mjs";
 
 console.log(num);
 
@@ -7,3 +7,5 @@ console.log(res);
 
 res = sub(3, 1);
 console.log(res);
+
+defaultCalc();
